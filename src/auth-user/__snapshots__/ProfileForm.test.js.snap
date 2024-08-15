@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-around m-3"
+  >
+    <button
+      class="btn btn-tab tertiary active-tab"
+    >
+      My Profile
+    </button>
+    <button
+      class="btn btn-tab primary"
+    >
+      My Jobs
+    </button>
+  </div>
+  <div
+    class="SignupForm card p-4 my-3 col-lg-10 mx-auto"
+  >
+    <h3
+      class="text-center mb-3"
+    >
+      Edit Profile
+    </h3>
+    <form>
+      <div
+        class="row mb-3"
+      >
+        <label
+          class="col-sm-3 col-form-label"
+        >
+          Username
+        </label>
+        <div
+          class="col-sm-9 "
+        >
+          <input
+            class="form-control"
+            disabled=""
+            name="username"
+            readonly=""
+            value="testuser"
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-3"
+      >
+        <label
+          class="col-sm-3 col-form-label"
+        >
+          First Name
+        </label>
+        <div
+          class="col-sm-9"
+        >
+          <input
+            class="form-control"
+            name="firstName"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-3"
+      >
+        <label
+          class="col-sm-3 col-form-label"
+        >
+          Last Name
+        </label>
+        <div
+          class="col-sm-9"
+        >
+          <input
+            class="form-control"
+            name="lastName"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-3"
+      >
+        <label
+          class="col-sm-3 col-form-label"
+        >
+          Email
+        </label>
+        <div
+          class="col-sm-9"
+        >
+          <input
+            class="form-control"
+            name="email"
+            type="email"
+            value="test@test.com"
+          />
+        </div>
+      </div>
+      <div
+        class="text-center"
+      >
+        <button
+          class="btn btn-success"
+        >
+          Save Changes
+        </button>
+      </div>
+    </form>
+    <h3
+      class="m-3 text-center"
+    >
+      Settings
+    </h3>
+    <div
+      class="text-center"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete Account
+      </button>
+    </div>
+  </div>
+  ,
+</DocumentFragment>
+`;

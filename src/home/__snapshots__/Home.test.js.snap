@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center m-5"
+  >
+    <div>
+      <h1
+        class="display-5"
+      >
+        Welcome back !
+      </h1>
+      <h5>
+        All the jobs in one, covenient place.
+      </h5>
+      <div
+        class="mt-4"
+      >
+        <p
+          class="m-0"
+        >
+          See 
+          <a
+            class="tertiary"
+            href="/companies"
+          >
+            who's hiring
+          </a>
+           • Explore 
+          <a
+            class="tertiary"
+            href="/jobs"
+          >
+            new roles
+          </a>
+        </p>
+      </div>
+    </div>
+    <img
+      src="https://png.pngtree.com/png-vector/20220724/ourmid/pngtree-job-choice-icon-job-symbol-apply-vector-png-image_38124340.png"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center m-5"
+  >
+    <div>
+      <h1
+        class="display-5"
+      >
+        Welcome back !
+      </h1>
+      <h5>
+        All the jobs in one, covenient place.
+      </h5>
+      <div
+        class="mt-4"
+      >
+        <p
+          class="m-0"
+        >
+          See 
+          <a
+            class="tertiary"
+            href="/companies"
+          >
+            who's hiring
+          </a>
+           • Explore 
+          <a
+            class="tertiary"
+            href="/jobs"
+          >
+            new roles
+          </a>
+        </p>
+      </div>
+    </div>
+    <img
+      src="https://png.pngtree.com/png-vector/20220724/ourmid/pngtree-job-choice-icon-job-symbol-apply-vector-png-image_38124340.png"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with logo_url 1`] = `
+<DocumentFragment>
+  <a
+    class="CompanyCard card"
+    href="/companies/test-company1"
+  >
+    <div>
+      <h6
+        class="card-title"
+      >
+        Test Company1
+      </h6>
+      <div
+        class="card-body"
+      >
+        <p>
+          This is a test for company1.
+        </p>
+        <img
+          alt="Test Company1"
+        />
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot with logo_url 2`] = `
+<DocumentFragment>
+  <a
+    class="CompanyCard card"
+    href="/companies/test-company2"
+  >
+    <div>
+      <h6
+        class="card-title"
+      >
+        Test Company2
+      </h6>
+      <div
+        class="card-body"
+      >
+        <p>
+          This is a test for company2.
+        </p>
+        <img
+          alt="Test Company2"
+        />
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for error alerts 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-danger"
+    role="alert"
+  >
+    <ul
+      class="m-0"
+    >
+      <li
+        class="small"
+      >
+        Password needs to be atleast 5 characters.
+      </li>
+      <li
+        class="small"
+      >
+        Username taken.
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot for success alerts 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-success"
+    role="alert"
+  >
+    <ul
+      class="m-0"
+    >
+      <li
+        class="small"
+      >
+        Successful
+      </li>
+      <li
+        class="small"
+      >
+        Saved
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

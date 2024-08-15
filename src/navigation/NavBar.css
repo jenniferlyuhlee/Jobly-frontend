@@ -1,0 +1,37 @@
+.NavBar{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBar-right{
+    display: flex;
+    align-items: center;
+}
+
+.NavBar-link-right{
+    color: #555555;
+}
+
+.NavBar-link-left:hover, .NavBar-link-right:hover{
+    color: black;
+}
+
+.NavBar-link-left{
+    color: rgb(94, 184, 219);
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.NavBar-link-right{
+    text-align: right;
+    margin-left: 1.5rem;
+
+}
+
+.NavBar-link-right.active{
+    font-weight: bold;
+    color: black;
+}
