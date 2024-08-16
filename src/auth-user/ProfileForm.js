@@ -89,7 +89,7 @@ function ProfileForm(){
             
                 <button onClick={toggleDisplay} 
                 className={`btn btn-tab ${showProfile? "primary": "tertiary active-tab"}`}>
-                    My Jobs
+                    My Applications
                 </button>
             </div>
             {showProfile ? 

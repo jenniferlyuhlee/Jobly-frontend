@@ -12,6 +12,7 @@ import UserContext from "./UserContext";
  * - manages form state
  * - manages form errors to display if unsuccessful submit/bad request made
  */
+
 function LoginForm( {login} ){
     const initialState = {
         username:"",
